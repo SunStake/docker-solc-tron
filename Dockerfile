@@ -1,7 +1,7 @@
 FROM alpine AS build
 
 ENV SOLC_EXEC=solc
-ENV SOLC_URL=https://github.com/tronprotocol/solidity/releases/download/tv_0.5.8/solidity-linux_0.5.8_Odyssey_v3.6.0.zip
+ENV SOLC_URL=https://github.com/tronprotocol/solidity/releases/download/tv_0.5.9/solidity-linux_0.5.9_Odyssey_v3.6.6.zip
 
 WORKDIR /src
 
